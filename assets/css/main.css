@@ -288,6 +288,7 @@
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background-color: var(--white-color);
+    cursor: pointer;
     transition: all .1s ease;
 }
 .slider__btn:hover{
@@ -318,6 +319,7 @@
     border-radius: 30px;
     overflow: hidden;
     position: relative;
+    cursor: pointer;
 }
 .slider__item img{
     width: 270px;
