@@ -4,17 +4,13 @@
     --text-color: #52575F;
     --primary-color: #3685FB;
     --primary-color-rgba: rgba(54, 133, 251, 1);
-    /* --border-color: #dbdbdb; */
     --font-family: 'Poppins', sans-serif;
 
     --header-height: 120px;
     --navbar-height: 30px;
-    /* --header-with-search-height: calc(var(--header-height) - var(--navbar-height)); */
-    /* --header-sort-bar-height: 46px; */
 
     --header-height: 50px;
     --layout-width: 1170px;
-    /* --default-layout-horizontal-spacer: 24px; */
 }
 
 *{

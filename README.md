@@ -3,5 +3,5 @@
     <li>Trần Ngọc Đông - FG Homework</li>
     <li>Bài làm sử dụng html, css thuần, không responsive</li>
     <li>Bài có sử dung thư viện Tiny Slider để làm slider</li>
-    <li>Bài làm được test trên chrome nên có thể bị lỗi 1 vài chỗ khi sử dụng các trình duyệt trên khác.</li>
+    <li>Sử dụng chrome để trải nghiệm tốt nhất!!!</li>
 </ul>
