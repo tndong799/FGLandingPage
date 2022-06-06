@@ -77,6 +77,9 @@
     display: flex;
     align-items: center;
 }
+.header__nav-hamburger{
+    display: none;
+}
 .header__nav-list{
     display: flex
 }
