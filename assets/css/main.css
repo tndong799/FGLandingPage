@@ -37,7 +37,9 @@
     line-height: 3.4rem;
     color: var(--black-color)
 }
-
+.header__logo-text > span{
+    color: var(--primary-color)
+}
 
 .header__search{
     display: flex;
