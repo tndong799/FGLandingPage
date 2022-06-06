@@ -153,6 +153,16 @@
     position: relative;
     margin-right: 330px;
 }
+.planning__image:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    /* right: 0; */
+    margin-left: 42px;
+    width: 100%;
+    height: 100%;
+    background: url('../image/arrow-planning.png') no-repeat;
+}
 .planning__image img{
     border: 8px solid #FFFFFF;
     border-radius: 30px;
@@ -563,9 +573,31 @@
 .subcribe .container{
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+.subcribe .container:after{
+    content: '';
+    position: absolute;
+    background: url('../image/circle-1.png') no-repeat;
+    transform: translateX(-50%);
+    width: 163px;
+    height: 163px;
+    z-index: 1
+}
+.subcribe .container:before{
+    content: '';
+    position: absolute;
+    background: url('../image/circle-1.png') no-repeat;
+    top: 0;
+    right: 0;
+    transform: translate(50%,-40%);
+    width: 163px;
+    height: 163px;
+    z-index: 1
 }
 .subcribe__content{
-
+    z-index: 2;
 }
 
 .subcribe__title{
@@ -592,6 +624,7 @@
     border-radius: 33px;
     height: 64px;
     padding-left: 28px;
+    z-index: 2;
 }
 
 .subcribe__input{
