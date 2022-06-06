@@ -574,6 +574,7 @@
 .subcribe{
     padding: 96px 0;
     background-color: #F5F9FF;
+    overflow: hidden;
 }
 .subcribe .container{
     align-items: center;
