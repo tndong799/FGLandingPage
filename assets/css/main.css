@@ -596,6 +596,16 @@
     height: 163px;
     z-index: 1
 }
+.subcribe__bg-image{
+    position: absolute;
+    background: url('../image/circle-1.png') no-repeat;
+    top: 0;
+    right: 0;
+    transform: translate(25%,12%);
+    width: 163px;
+    height: 163px;
+    z-index: 1
+}
 .subcribe__content{
     z-index: 2;
 }
